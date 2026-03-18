@@ -1,0 +1,35 @@
+:root {
+  --bg: #080c14;
+  --bg2: #0d1420;
+  --teal: #00d4c8;
+  --gold: #f5a623;
+  --orange: #ff6b35;
+  --text: #e8edf5;
+  --muted: #7a8899;
+  --card: rgba(255, 255, 255, 0.04);
+  --border: rgba(0, 212, 200, 0.15);
+  --font-display: 'Unbounded', sans-serif;
+  --font-body: 'Mulish', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+}
